@@ -26,14 +26,16 @@ func removeDuplicates(_ nums: inout [Int]) -> Int {
     
     nums = numsLocal
     
+    /*
     for item in nums {
         print("\(item)")
     }
+    */
     
     return nums.count
 }
 
-var list : [Int] = [1]
+var list : [Int] = [0,0,1,1,1,1,2,3,3]
 
 var result = removeDuplicates(&list)
 print("result:\(result)")

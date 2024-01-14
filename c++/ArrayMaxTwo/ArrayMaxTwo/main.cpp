@@ -30,10 +30,12 @@ int removeDuplicates(vector<int>& nums) {
     }
     nums = numLocal;
     
+    /*
     for (int i = 0; i < nums.size(); i++) {
         cout << nums[i] << " ";
     }
     cout << endl;
+    */
     
     return int(nums.size());
 }
