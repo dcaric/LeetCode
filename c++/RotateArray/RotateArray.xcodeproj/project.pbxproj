@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F1D711C2B591A0A0097C8B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D711B2B591A0A0097C8B9 /* main.cpp */; };
+		4F1D71442B5990F70097C8B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D71432B5990F70097C8B9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4F1D71162B591A0A0097C8B9 /* CopyFiles */ = {
+		4F1D713E2B5990F70097C8B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F1D71182B591A0A0097C8B9 /* MajorityElementCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MajorityElementCpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F1D711B2B591A0A0097C8B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4F1D71362B5988220097C8B9 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		4F1D71402B5990F70097C8B9 /* RotateArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RotateArray; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1D71432B5990F70097C8B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F1D714A2B59910D0097C8B9 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F1D71152B591A0A0097C8B9 /* Frameworks */ = {
+		4F1D713D2B5990F70097C8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,66 +39,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F1D710F2B591A0A0097C8B9 = {
+		4F1D71372B5990F70097C8B9 = {
 			isa = PBXGroup;
 			children = (
-				4F1D711A2B591A0A0097C8B9 /* MajoritzElementCpp */,
-				4F1D71192B591A0A0097C8B9 /* Products */,
+				4F1D71422B5990F70097C8B9 /* RotateArray */,
+				4F1D71412B5990F70097C8B9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F1D71192B591A0A0097C8B9 /* Products */ = {
+		4F1D71412B5990F70097C8B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F1D71182B591A0A0097C8B9 /* MajorityElementCpp */,
+				4F1D71402B5990F70097C8B9 /* RotateArray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F1D711A2B591A0A0097C8B9 /* MajoritzElementCpp */ = {
+		4F1D71422B5990F70097C8B9 /* RotateArray */ = {
 			isa = PBXGroup;
 			children = (
-				4F1D711B2B591A0A0097C8B9 /* main.cpp */,
-				4F1D71362B5988220097C8B9 /* Readme.rtf */,
+				4F1D71432B5990F70097C8B9 /* main.cpp */,
+				4F1D714A2B59910D0097C8B9 /* Readme.rtf */,
 			);
-			path = MajoritzElementCpp;
+			path = RotateArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F1D71172B591A0A0097C8B9 /* MajorityElementCpp */ = {
+		4F1D713F2B5990F70097C8B9 /* RotateArray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F1D711F2B591A0A0097C8B9 /* Build configuration list for PBXNativeTarget "MajorityElementCpp" */;
+			buildConfigurationList = 4F1D71472B5990F70097C8B9 /* Build configuration list for PBXNativeTarget "RotateArray" */;
 			buildPhases = (
-				4F1D71142B591A0A0097C8B9 /* Sources */,
-				4F1D71152B591A0A0097C8B9 /* Frameworks */,
-				4F1D71162B591A0A0097C8B9 /* CopyFiles */,
+				4F1D713C2B5990F70097C8B9 /* Sources */,
+				4F1D713D2B5990F70097C8B9 /* Frameworks */,
+				4F1D713E2B5990F70097C8B9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MajorityElementCpp;
-			productName = MajoritzElementCpp;
-			productReference = 4F1D71182B591A0A0097C8B9 /* MajorityElementCpp */;
+			name = RotateArray;
+			productName = RotateArray;
+			productReference = 4F1D71402B5990F70097C8B9 /* RotateArray */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F1D71102B591A0A0097C8B9 /* Project object */ = {
+		4F1D71382B5990F70097C8B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					4F1D71172B591A0A0097C8B9 = {
+					4F1D713F2B5990F70097C8B9 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 4F1D71132B591A0A0097C8B9 /* Build configuration list for PBXProject "MajorityElementCpp" */;
+			buildConfigurationList = 4F1D713B2B5990F70097C8B9 /* Build configuration list for PBXProject "RotateArray" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,29 +106,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F1D710F2B591A0A0097C8B9;
-			productRefGroup = 4F1D71192B591A0A0097C8B9 /* Products */;
+			mainGroup = 4F1D71372B5990F70097C8B9;
+			productRefGroup = 4F1D71412B5990F70097C8B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F1D71172B591A0A0097C8B9 /* MajorityElementCpp */,
+				4F1D713F2B5990F70097C8B9 /* RotateArray */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F1D71142B591A0A0097C8B9 /* Sources */ = {
+		4F1D713C2B5990F70097C8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1D711C2B591A0A0097C8B9 /* main.cpp in Sources */,
+				4F1D71442B5990F70097C8B9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4F1D711D2B591A0A0097C8B9 /* Debug */ = {
+		4F1D71452B5990F70097C8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		4F1D711E2B591A0A0097C8B9 /* Release */ = {
+		4F1D71462B5990F70097C8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +243,7 @@
 			};
 			name = Release;
 		};
-		4F1D71202B591A0A0097C8B9 /* Debug */ = {
+		4F1D71482B5990F70097C8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		4F1D71212B591A0A0097C8B9 /* Release */ = {
+		4F1D71492B5990F70097C8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F1D71132B591A0A0097C8B9 /* Build configuration list for PBXProject "MajorityElementCpp" */ = {
+		4F1D713B2B5990F70097C8B9 /* Build configuration list for PBXProject "RotateArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F1D711D2B591A0A0097C8B9 /* Debug */,
-				4F1D711E2B591A0A0097C8B9 /* Release */,
+				4F1D71452B5990F70097C8B9 /* Debug */,
+				4F1D71462B5990F70097C8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F1D711F2B591A0A0097C8B9 /* Build configuration list for PBXNativeTarget "MajorityElementCpp" */ = {
+		4F1D71472B5990F70097C8B9 /* Build configuration list for PBXNativeTarget "RotateArray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F1D71202B591A0A0097C8B9 /* Debug */,
-				4F1D71212B591A0A0097C8B9 /* Release */,
+				4F1D71482B5990F70097C8B9 /* Debug */,
+				4F1D71492B5990F70097C8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F1D71102B591A0A0097C8B9 /* Project object */;
+	rootObject = 4F1D71382B5990F70097C8B9 /* Project object */;
 }
