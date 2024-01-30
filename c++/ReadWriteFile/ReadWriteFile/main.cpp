@@ -26,6 +26,21 @@ void getPath() {
     }
 }
 
+void appendtoFile(string sentence, string filePath) {
+    
+    ofstream file(filePath, ios::app); // Open in append mode
+
+        if (file.is_open()) {
+            file << sentence << endl;
+            file.close();
+        } else {
+            cerr << "Unable to open file for appending." << endl;
+        }
+
+    
+}
+
+
 void writeToFile(string sentence, string filePath) {
 
     // Create an ofstream object for writing
@@ -71,6 +86,7 @@ int main(int argc, const char * argv[]) {
     getPath();
     
     writeToFile("Hi Dario !", "myfile.txt");
+    appendtoFile("Hi again !!", "myFile.txt");
     readFromFile("myfile.txt");
     
     return 0;
